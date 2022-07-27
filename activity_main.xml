@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mata_kuliah"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF"
+            android:id="@+id/matkul"/>
+
+        <Spinner
+            android:id="@+id/listmatakuliah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/list_mata_kuliah"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai absen"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+
+
+
+
+            android:textColor="#0000FF" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nilaiabsen"
+            android:text="0"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai Tugas"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nilaitugas"
+            android:text="0"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai UTS"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nilaiuts"
+            android:text="0"
+            android:inputType="number"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nilai UAS"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nilaiuas"
+            android:text="0"
+            android:inputType="number"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tombol"
+            android:text="HITUNG"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#0000FF" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATA KULIAH"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:textColor="#2F4F4F"
+            android:id="@+id/tampil_matkul"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+
+            android:text="Nilai "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/nilaiakhir"
+            android:layout_marginBottom="8dp"
+            android:textColor="#2F4F4F" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text= "Grade "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/nilaigrade"
+            android:layout_marginBottom="8dp"
+            android:textColor="#2F4F4F"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keterangan "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/nilaiketerangan"
+            android:layout_marginBottom="8dp"
+            android:textColor="#2F4F4F"/>
+    </LinearLayout></ScrollView>
+

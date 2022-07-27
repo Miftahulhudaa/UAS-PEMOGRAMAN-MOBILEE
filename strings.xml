@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Nilai Mahasiswa</string>
+    <string name="pilih_mata_kuliah">Pilih Mata Kuliah</string>
+    <string name="mata_kuliah">Mata Kuliah</string>
+
+    <string-array name="list_mata_kuliah">
+        <item>PBO</item>
+        <item>OOAD</item>
+        <item>Pemrograman Mobile 1</item>
+        <item>Jaringan Komputer 2</item>
+        <item>Digital Preneurship</item>
+        <item>Teknik Kompilasi</item>
+        <item>Manajemen Perangkat Lunak</item>
+    </string-array>
+</resources>
